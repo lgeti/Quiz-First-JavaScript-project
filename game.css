@@ -1,0 +1,99 @@
+body {
+  color: #fff;
+}
+
+.choice-container {
+  display: flex;
+  margin-bottom: 0.8rem;
+  padding: 1rem;
+  border-radius: 4px;
+  background: rgb(18, 93, 235);
+  font-size: 3rem;
+  min-width: 30rem;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1.4rem 0 rgba(6, 103, 247, 0.5);
+  transform: scale(1.03);
+  transition: transform 100ms;
+}
+
+.choice-prefix {
+  padding: 1rem 1.5rem;
+  color: white;
+}
+
+.choice-text {
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+  align-items: center;
+  /* text-align: center; */
+}
+
+/* Classes .correct and .incorrect I apply after selecting an answer to the target object which */
+.correct {
+  background: linear-gradient(
+    32deg,
+    rgba(11, 223, 36) 0%,
+    rgb(41, 232, 111) 100%
+  );
+}
+
+.incorrect {
+  background: linear-gradient(
+    32deg,
+    rgba(230, 29, 29, 1) 0%,
+    rgb(224, 11, 11, 1) 100%
+  );
+}
+
+#hud {
+  display: flex;
+  width: 100%;
+  margin: 2rem;
+  justify-content: space-evenly;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#score {
+  margin: 0;
+}
+
+#progressBar {
+  width: 20rem;
+  height: 3rem;
+  border: 0.2rem solid rgb(11, 223, 36);
+  margin: 1rem 0;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#progressBarFull {
+  height: 100%;
+  background: rgb(11, 223, 36);
+  width: 0%;
+}
+
+@media screen and (min-width: 600px) {
+  .choice-prefix {
+    padding: 2rem 2.5rem;
+  }
+
+  .hud-prefix {
+    font-size: 3rem;
+  }
+
+  .choice-container {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    font-size: 5rem;
+    min-width: 50rem;
+  }
+
+}
