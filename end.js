@@ -3,6 +3,9 @@ const saveScoreBtn = document.querySelector("#saveScoreBtn");
 const finalScore = document.querySelector("#finalScore");
 const mostRecentScore = localStorage.getItem("mostRecentScore");
 
+const input = document.querySelector("input");
+const form = document.querySelector("form");
+
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
 const MAX_HIGH_SCORES = 5;
@@ -10,19 +13,27 @@ const MAX_HIGH_SCORES = 5;
 finalScore.innerText = mostRecentScore;
 
 username.addEventListener("keyup", () => {
-  saveScoreBtn.disabled = !username.value;
+  if (username.validity.patternMismatch) {
+    saveScoreBtn.disabled = true;
+    // e.preventDefault();
+    input.classList.add("warning");
+    setTimeout("alert('Your username can only contain letters and spaces, up to 30.');", 1);
+  } else {
+    input.classList.remove("warning");
+    saveScoreBtn.disabled = false;
+  }
 });
 
-saveHighScore = (e) => {
+function saveHighScore(e) {
   e.preventDefault();
 
-  const input = document.querySelector("input");
-
-  if (!/^[a-zA-Z0-9]+$/.test(username.value)) {
-    input.classList.add("warning");
-
-    return;
-  }
+  // if (username.validity.patternMismatch) {
+  //   e.preventDefault();
+  //   input.classList.add("warning");
+  //   alert("Please enter a valid username (up to 30 letters)");
+  //   return;
+  // }
+  // input.classList.remove("warning");
 
   const score = {
     score: mostRecentScore,
@@ -39,5 +50,5 @@ saveHighScore = (e) => {
 
   localStorage.setItem("highScores", JSON.stringify(highScores));
 
-  window.location.assign("/");
-};
+  window.location.assign("/highscores.html");
+}

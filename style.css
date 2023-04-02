@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap"); */
 
 :root {
   background-color: rgb(29, 26, 26);
@@ -138,6 +138,18 @@ input::placeholder {
   margin-left: 1rem;
   font-size: 2rem;
   color: rgb(28, 26, 26);
+}
+
+/* References */
+p {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.link {
+  color: #fff;
+  font-size: 3rem;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 600px) {

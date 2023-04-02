@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>References</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/063e825525.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <p>
+      For this homework I started by following along this
+      <a
+        class="link"
+        href="https://www.youtube.com/watch?v=f4fB9Xg2JEY&list=PLxi-8Lx-zkSNz7t0wDD-yn4JQg9Ya7o7B&index=6&ab_channel=BrianDesign"
+        >youtube tutorial</a
+      >
+      for creating a quiz. <br />
+      After I finished the tutorial, I went back and redid some of the HTML,
+      deleted some redundant divs. Then redid most of the CSS. <br />
+      Explanation for some of the CSS: <br /><br />
+      -'box-sizing: border-box;' property makes it so the specified width and
+      height values apply to the entire box, including any padding and border.
+      <br />
+      -'width: 100vw;' and 'height: 100vh;' properties set the width/height of
+      an element to 100% of the user's visible area of a web page. <br />
+      -'text-decoration: none;' removes the underline from the text in the
+      "button class". <br />
+      -'border-radius: 4px;' sets the radius of the corners of an element's
+      border. Makes it round. <br />
+      -'.button:hover { <br />
+      cursor: pointer; <br />
+      box-shadow: 0 0 2.4rem 0 rgba(8, 114, 244, 0.6);<br />
+      transition: transform 330ms;<br />
+      transform: scale(1.05);<br />
+      }' is a CSS code block that sets the hover state for an element with of
+      class "button". 'cursor: pointer;' shows the cursos when hovered over the
+      element. 'box-shadow: 0 0 2.4rem 0 rgba(8, 114, 244, 0.6);' creates a
+      shadow around the button. 'transform: scale(1.05);' makes the button
+      bigger by 5% when hovered over. 'transition: transform 330ms;' smooths out
+      the transition of the shadow and scaling by transforming it for 330ms and
+      not instantly. <br>
+      '.button[disabled]:hover { <br>
+        cursor: not-allowed; <br>
+        box-shadow: none; <br>
+        transform: none; <br>
+      }' this makes it so when the button is in a disabled state. 
+      The cursor style changes to display a circle with a slash. And disables all the listed properties. <br>
+    
+    </p>
+  </body>
+</html>
