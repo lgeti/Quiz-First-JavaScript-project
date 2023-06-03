@@ -15,7 +15,6 @@ finalScore.innerText = mostRecentScore;
 username.addEventListener("keyup", () => {
   if (username.validity.patternMismatch) {
     saveScoreBtn.disabled = true;
-    // e.preventDefault();
     input.classList.add("warning");
     setTimeout("alert('Your username can only contain letters and spaces, up to 30.');", 1);
   } else {
@@ -26,14 +25,6 @@ username.addEventListener("keyup", () => {
 
 function saveHighScore(e) {
   e.preventDefault();
-
-  // if (username.validity.patternMismatch) {
-  //   e.preventDefault();
-  //   input.classList.add("warning");
-  //   alert("Please enter a valid username (up to 30 letters)");
-  //   return;
-  // }
-  // input.classList.remove("warning");
 
   const score = {
     score: mostRecentScore,
