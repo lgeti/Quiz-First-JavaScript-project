@@ -1,12 +1,33 @@
-This is my first attempt at a JavaScript project :D
+# vue-quiz
 
-ITS A QUIZZZZZZZ
+This template should help get you started developing with Vue 3 in Vite.
 
-![image](https://github.com/lgeti/Quiz_HTML-CSS-JavaScript/assets/76261368/0f1150f7-6388-402b-b00c-88f2a76fa3ff)
-![image](https://github.com/lgeti/Quiz_HTML-CSS-JavaScript/assets/76261368/d66eef1a-c06c-42e5-a3e2-4848875e87b5)
-![image](https://github.com/lgeti/Quiz_HTML-CSS-JavaScript/assets/76261368/93ed8393-c8b1-4712-9175-fdca97afb638)
-![image](https://github.com/lgeti/Quiz_HTML-CSS-JavaScript/assets/76261368/b2c9a7b0-cb34-4121-beda-605622e8f7c4)
-![image](https://github.com/lgeti/Quiz_HTML-CSS-JavaScript/assets/76261368/e00c3e56-d3cf-4594-88d4-3254fba0acad)
-![image](https://github.com/lgeti/Quiz_HTML-CSS-JavaScript/assets/76261368/afeb0050-d628-4d3c-8dfa-5432de0cbd71)
-![image](https://github.com/lgeti/Quiz_HTML-CSS-JavaScript/assets/76261368/766b599a-90b8-49ad-a837-d12c992592ce)
-![image](https://github.com/lgeti/Quiz_HTML-CSS-JavaScript/assets/76261368/61866d28-419f-4eab-bf2b-b08b3eae3404)
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+
+## Type Support for `.vue` Imports in TS
+
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
