@@ -1,0 +1,35 @@
+:root {
+    background-color: rgb(29, 26, 26);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 115%;
+    font-family: "Nova Square", cursive;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3.4rem;
+    color: #fff;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.2rem;
+    color: #fff;
+    margin-bottom: 4rem;
+    text-align: center;
+}
