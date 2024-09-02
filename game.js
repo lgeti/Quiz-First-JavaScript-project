@@ -4,109 +4,140 @@ const progressText = document.querySelector("#progressText");
 const scoreText = document.querySelector("#score");
 const progressBarFull = document.querySelector("#progressBarFull");
 
-let currentQuestion = {};
-let acceptingAnswers = true;
-let score = 0;
-let questionCounter = 0;
-let availableQuestions = [];
+const myRequest = new Request("./src/data/24-1r-t.json");
 
-let questions = [
-  {
-    question: "Which of the following is NOT a primary color?",
-    choice1: "Red",
-    choice2: "Blue",
-    choice3: "Yellow",
-    choice4: "Green",
-    answer: 4,
-  },
-  {
-    question: "What is the capital city of Brazil?",
-    choice1: "Rio de Janeiro",
-    choice2: "Brasilia",
-    choice3: "Sao Paulo",
-    choice4: "Belo Horizonte",
-    answer: 2,
-  },
-  {
-    question: "Which planet in our solar system is the largest",
-    choice1: "Venus",
-    choice2: "Mars",
-    choice3: "Jupiter",
-    choice4: "Saturn",
-    answer: 3,
-  },
-  {
-    question: "What is the name of the largest ocean in the world?",
-    choice1: "Atlantic Ocean",
-    choice2: "Arctic Ocean",
-    choice3: "Indian Ocean",
-    choice4: "Pacific Ocean",
-    answer: 4,
-  },
-];
 
-const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 4;
+function fetchJSONFile(path) {
+	fetch(path)
+		.then((response) => {
+			if (!response.ok) {
+				throw new Error(`HTTP error! Status: ${response.status}`);
+			}
+			return response.json();
+		})
+		.then((data) => {
+			const questions = data;
 
-startGame = () => {
-  questionCounter = 0;
-  score = 0;
-  availableQuestions = [...questions];
-  getNewQuestion();
-};
+			const SCORE_POINTS = 100;
+			const MAX_QUESTIONS = 4;
+			
+			let score = 0;
 
-getNewQuestion = () => {
-  if (availableQuestions.length == 0 || questionCounter > MAX_QUESTIONS) {
-    localStorage.setItem("mostRecentScore", score);
+			startGame = () => {
+				questionCounter = 0;
+				score = 0;
+				availableQuestions = [...questions];
 
-    return window.location.assign("/end.html");
-  }
+				// getNewQuestion();
+			};
 
-  questionCounter++;
-  progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
-  progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+			getNewQuestion = () => {
+				if (availableQuestions.length == 0 || questionCounter > MAX_QUESTIONS) {
+					localStorage.setItem("mostRecentScore", score);
 
-  const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
-  currentQuestion = availableQuestions[questionsIndex];
-  question.innerText = currentQuestion.question;
+					return window.location.assign("/end.html");
+				}
 
-  choices.forEach((choice) => {
-    const number = choice.dataset["number"];
-    choice.innerText = currentQuestion["choice" + number];
-  });
+				questionCounter++;
+				progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
+				progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-  availableQuestions.splice(questionsIndex, 1);
+				const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+				currentQuestion = availableQuestions[questionsIndex];
+				question.innerText = currentQuestion.question;
 
-  acceptingAnswers = true;
-};
+				choices.forEach((choice) => {
+					const number = choice.dataset["number"];
+					choice.innerText = currentQuestion["choice" + number];
+				});
 
-choices.forEach((choice) => {
-  choice.addEventListener("click", (e) => {
-    if (!acceptingAnswers) return;
+				availableQuestions.splice(questionsIndex, 1);
 
-    acceptingAnswers = false;
-    const selectedChoice = e.target;
-    const selectedAnswer = selectedChoice.dataset["number"];
+				acceptingAnswers = true;
+			};
 
-    let classToApply =
-      selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+			startGame();
 
-    if (classToApply == "correct") {
-      incrementScore(SCORE_POINTS);
-    }
 
-    selectedChoice.parentElement.classList.add(classToApply);
+		})
+		.catch((error) => {
+			console.error(error);
+		});
+}
 
-    setTimeout(() => {
-      selectedChoice.parentElement.classList.remove(classToApply);
-      getNewQuestion();
-    }, 1000);
-  });
-});
+fetchJSONFile("./src/data/24-1r-t.json");
 
-incrementScore = (num) => {
-  score += num;
-  scoreText.innerText = score;
-};
 
-startGame();
+
+// let currentQuestion = {};
+// let acceptingAnswers = true;
+// let score = 0;
+// let questionCounter = 0;
+// let availableQuestions = [];
+
+// const SCORE_POINTS = 100;
+// const MAX_QUESTIONS = 4;
+
+// startGame = () => {
+// 	questionCounter = 0;
+// 	score = 0;
+// 	// availableQuestions = [...questions];
+// 	console.log(availableQuestions);
+// 	// getNewQuestion();
+// };
+
+// getNewQuestion = () => {
+// 	if (availableQuestions.length == 0 || questionCounter > MAX_QUESTIONS) {
+// 		localStorage.setItem("mostRecentScore", score);
+
+// 		return window.location.assign("/end.html");
+// 	}
+
+// 	questionCounter++;
+// 	progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
+// 	progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+
+// 	const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+// 	currentQuestion = availableQuestions[questionsIndex];
+// 	question.innerText = currentQuestion.question;
+
+// 	choices.forEach((choice) => {
+// 		const number = choice.dataset["number"];
+// 		choice.innerText = currentQuestion["choice" + number];
+// 	});
+
+// 	availableQuestions.splice(questionsIndex, 1);
+
+// 	acceptingAnswers = true;
+// };
+
+// choices.forEach((choice) => {
+// 	choice.addEventListener("click", (e) => {
+// 		if (!acceptingAnswers) return;
+
+// 		acceptingAnswers = false;
+// 		const selectedChoice = e.target;
+// 		const selectedAnswer = selectedChoice.dataset["number"];
+
+// 		let classToApply =
+// 			selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+
+// 		if (classToApply == "correct") {
+// 			incrementScore(SCORE_POINTS);
+// 		}
+
+// 		selectedChoice.parentElement.classList.add(classToApply);
+
+// 		setTimeout(() => {
+// 			selectedChoice.parentElement.classList.remove(classToApply);
+// 			getNewQuestion();
+// 		}, 1000);
+// 	});
+// });
+
+// incrementScore = (num) => {
+// 	score += num;
+// 	scoreText.innerText = score;
+// };
+
+// startGame();
