@@ -87,7 +87,7 @@
       "id": 15,
       "question": "Kako s pomočjo bitnih operacij v jeziku C najmanj pomembne 3 bite 8-bitnega nepredznačenega celega števila negiramo, ne da bi spremenili ostale bite?",
       "GPTanswer": "Za negacijo najmanj pomembnih 3 bitov uporabimo operacijo XOR s številom 7 (0b00000111):\n\nnumber ^= 0x07;",
-      "answer": "GPTanswer"
+      "answer": "x XOR 00000111"
     },
     {
       "id": 16,

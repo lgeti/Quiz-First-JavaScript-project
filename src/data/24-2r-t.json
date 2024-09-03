@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "Kateri so argumenti sistemskega klica write in kaj klic vrača?",
+        "GPTanswer": "Argumenti: datotečni opisnik, kazalec na podatke, dolžina podatkov. Vrača število dejansko zapisanih bajtov.",
+        "answer": "Argumenti: int fd - datotecni opisnik,\n*buff - pointer to buffer\nsize_t nbytes - stevilo bajtov ki jih hocemo zapisat.\n\nVrne: stevilo zapisanih bajtov, ce OK.\n-1, ob napaki."
+    },
+    {
+        "id": 2,
+        "question": "Katere tipe in ustrezne funkcije neformatiranega vhoda v standardni V/I knjižnici poznamo?",
+        "GPTanswer": "...",
+        "answer": "znakovni V/I - getc, fgetc, getchar,\nvrsticni V/I - gets, fgets,\ndirektni V/I - fread."
+    },
+    {
+        "id": 3,
+        "question": "Kaj so argumenti funkcije fopen in kaj vrača?",
+        "GPTanswer": "Argumenti: ime datoteke, način odpiranja (npr. 'r', 'w'). Vrača kazalec na strukturo FILE.",
+        "answer": "Argumenti: char* pathname - pointer to pathname,\nchar* type - pointer to type of file (r, w, a, w+, r+, a+).\n\nVrne: FILE* - pointer to FILE structure, ob uspehu\nsicer NULL"
+    },
+    {
+        "id": 4,
+        "question": "Kateri sta dve glavni uporabi funkcije fork?",
+        "GPTanswer": "Ustvarjanje novega procesa (otrok) in omogočanje sočasnega izvajanja procesov.",
+        "answer": "-kadar proces zeli izvrsiti drug program (lupine)\n-procese duplira tako, da lahko stars in otrok istocasno izvajata razlicne dele kode (omrezni streznik)."
+    },
+    {
+        "id": 5,
+        "question": "S katerim ukazom ustvarimo FIFO?",
+        "GPTanswer": "Uporabimo ukaz mkfifo.",
+        "answer": "mkfifo - ukaz za ustvarjanje FIFO (first in, first out) cevi."
+    },
+    {
+        "id": 6,
+        "question": "Kakšen je smisel semaforja?",
+        "GPTanswer": "Uporablja se za sinhronizacijo dostopa do skupnih virov v večnitnih ali večprocesnih programih.",
+        "answer": "Kontrolira dostop do nekega skupnega vira (objekta) s strani več niti ali procesov, s preklapljanjem med stanji."
+    },
+    {
+        "id": 7,
+        "question": "Kaj je inode?",
+        "GPTanswer": "Struktura v datotečnem sistemu, ki shranjuje informacije o datoteki (kot so lastnik, dovoljenja, velikost, lokacija podatkov).",
+        "answer": "Podatkovna struktura fiksne dolzine, ki vsebuje informacije o datoteki (metapodatki, kot so tip datoteke, dovoljenja, i-node st., uid owner-ja...) ampak ne vsebuje imena in vsebine datoteke."
+    },
+    {
+        "id": 8,
+        "question": "Kaj pocne funkcija popen?",
+        "GPTanswer": "Odpira proces in vrača datotečni tok (pipe), prek katerega lahko komuniciramo s procesom.",
+        "answer": "Ustvari proces s cevom za komunikacijo med procesi, izvaja ukazno lupino in vrne kazalec na FILE (tok za branje ali pisanje) če OK, sicer NULL."
+    },
+    {
+        "id": 9,
+        "question": "Kakšna je razlika med zombiejem in siroto (orphan process)?",
+        "GPTanswer": "Zombie je proces, ki je končal izvajanje, a ga starševski proces še ni odstranil; sirota pa je proces, katerega starševski proces je bil ukončan.",
+        "answer": "Zombi - proces, ki se je končal, vendar še vedno obstaja v tabeli procesov, ker njegov nadrejeni proces še ni prebral njegovega končnega statusa.\nSirota - proces, katerega nadrejeni proces je končal, preden je sirota končala."
+    },
+    {
+        "id": 10,
+        "question": "V katerem primeru se pošlje signal SIGCHLD?",
+        "GPTanswer": "Ko otrok proces konča z izvajanjem, sistem pošlje SIGCHLD starševskemu procesu.",
+        "answer": "Signal dobi stars o otroku, ko se otrok zakljuci ali ustavi."
+    },
+    {
+        "id": 11,
+        "question": "Kako ustvarjena nit ve, kaj mora delati?",
+        "GPTanswer": "Niti delijo isti pomnilniški prostor in vire, zato lahko komunicirajo med seboj in delijo podatke.",
+        "answer": "S argumentom 'start_routine' v funkciji pthread_create, določimo funkcijo ki jo nit izvaja."
+    },
+    {
+        "id": 12,
+        "question": "Čemu služita funkciji kill in raise?",
+        "GPTanswer": "kill pošlje signal drugemu procesu, raise pa pošlje signal trenutnemu procesu.",
+        "answer": "kill - poslje signal drugemu procesu z dolocenim PID-om\nraise - poslje signal trenutnemu procesu"
+    },
+    {
+        "id": 13,
+        "question": "V čem se paralelni TCP strežnik razlikuje od iterativnega?",
+        "GPTanswer": "Paralelni TCP strežnik ustvari novo nit ali proces za vsako povezavo, medtem ko iterativni strežnik obravnava povezave eno za drugo.",
+        "answer": "Iterativni obdeluje eno povezavo (eno zahtevo) naenkrat.\nParalelni ustvari nov proces/nit za vsako novo povezavo."
+    },
+    {
+        "id": 14,
+        "question": "Na kakšen način sta med seboj povezana (posebna) datoteka naprave in gonilnik?",
+        "GPTanswer": "Posebna datoteka naprave (npr. /dev/sda) omogoča aplikacijam komunikacijo z gonilnikom naprave.",
+        "answer": "Posebna datoteka naprave ima major in minor stevilke.\nMajor doloca kateri gonilnik bo upravljal napravo, minor pa katero specificno napravo."
+    },
+    {
+        "id": 15,
+        "question": "Ali imajo PCji enoten naslovni prostor?",
+        "GPTanswer": "Nekateri proizvajalci implementirajo v svojih čipih enoten naslovni prostor, pri drugi pa imajo periferne naprave svoj lasten naslovni prostor.",
+        "answer": "Nekateri proizvajalci implementirajo v svojih čipih enoten naslovni prostor, pri drugi pa imajo periferne naprave svoj lasten naslovni prostor"
+    },
+    {
+        "id": 16,
+        "question": "Kaj pomeni dev_t?",
+        "GPTanswer": "To je podatkovni tip, ki predstavlja številko naprave (kombinacija glavnega in pomožnega števila).",
+        "answer": "Podatovni tip v katerem sta zakodirani major in minor. 12 bitov za major in 20 bitov za minor."
+    },
+    {
+        "id": 17,
+        "question": "Zakaj kazalec v uporabniškem prostoru ne sme biti direktno dereferenciran v kodi jedra?",
+        "GPTanswer": "Ker je uporabniški prostor ločen od jedra in dostop do njega ni dovoljen zaradi varnostnih razlogov.",
+        "answer": "Kazalec lahko kaze na neveljaaven ali nedovoljen naslov, kar lahko sesuje sistem ali povzroci segmentacijsko napako."
+    },
+    {
+        "id": 18,
+        "question": "Za kaj se pri modulih uporablja struktura file_operations?",
+        "GPTanswer": "Struktura file_operations vsebuje kazalce na funkcije, ki predstavljajo operacije, ki jih je mogoče izvesti nad datoteko.",
+        "answer": "Poveze operacije gonilnika s stevilkami napravami."
+    },
+    {
+        "id": 19,
+        "question": "Kako drugi bit (z leve; utez 2^6) 8-bitnega nepredznačenega celega števila postavimo na 1, ne da bi spremenili ostale bite?",
+        "GPTanswer": "Za postavitev drugega bita na 1 uporabimo operacijo OR s številom 64 (0b01000000):\n\nnumber |= 0x40;",
+        "answer": "x |= (1 << 6)"
+    },
+    {
+        "id": 20,
+        "question": "Kateri c dobimo, če izvedemo operacijo c = (a | ~b) ^ 0x1E, kjer je a enak 88, b pa 0xC3?",
+        "GPTanswer": "SHIT !!!! Pri danih vrednostih dobimo rezultat:\n\n~b je bitni NOT od b (vse bite obrne): ~0xC3 je 0x3C.\na | ~b je bitni OR med a in ~b: 88 | 0x3C je 0xBC.\n0xBC ^ 0x1E je bitni XOR med 0xBC in 0x1E, kar je 0xA2.",
+        "answer": "28"
+    }
+]
