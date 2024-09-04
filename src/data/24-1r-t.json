@@ -27,7 +27,7 @@
       "id": 5,
       "question": "Katere tipe in ustrezne funkcije neformatiranega vhoda v standardni V/I knjižnici poznamo?",
       "GPTanswer": "Tipi neformatiranega vhoda vključujejo getc, getchar, in read. Funkcije: getc bere en znak, getchar je enako kot getc(stdin), read pa bere določen blok podatkov.",
-      "answer": "Tipi:\nznakovni: getc, fgetc, getchar\nvrsticni: fgets\ndirektni: fread"
+      "answer": "Tipi:\nznakovni: getc, fgetc, getchar\nvrsticni: gets, fgets\ndirektni: fread"
     },
     {
       "id": 6,
@@ -43,7 +43,7 @@
     },
     {
       "id": 8,
-      "question": "V katerem primeru se pošlje signal SIGCHILD?",
+      "question": "V katerem primeru se pošlje signal SIGCHLD?",
       "GPTanswer": "Signal SIGCHLD se pošlje nadrejenemu procesu, ko eden izmed njegovih podrejenih procesov konča izvajanje ali je ustavljen.",
       "answer": "SIGCHLD se pošlje staršu, ko se otrok konča ali je ustavljen."
     },
@@ -67,7 +67,7 @@
     },
     {
       "id": 12,
-      "question": "Kje srečamo trojno rokovanje in klik katere funkcije ga začne?",
+      "question": "Kje srečamo trojno rokovanje in klic katere funkcije ga začne?",
       "GPTanswer": "Trojno rokovanje srečamo pri vzpostavitvi TCP povezave. Funkcija connect začne ta proces na strani odjemalca.",
       "answer": "Trojno rokovanje srečamo pri vzpostavitvi TCP povezave. Funkcija connect začne ta proces na strani odjemalca."
     },
@@ -105,7 +105,7 @@
       "id": 18,
       "question": "Kaj pomeni 'enoten naslovni prostor'?",
       "GPTanswer": "Enoten naslovni prostor pomeni, da vse niti znotraj istega procesa delijo isti naslovni prostor, kar omogoča neposreden dostop do skupnih podatkov.",
-      "answer": "Da se pomnilnik in naprave nahajajo v istem naslovnem prostoru, kar omogoca dostop do naprav preko standardnih pomnilniskih naslovov, brec locenih V/I ukazov. Se imenuje tudi memory-mapped I/O (MMIO)."
+      "answer": "Da se pomnilnik in naprave nahajajo v istem naslovnem prostoru, kar omogoca dostop do naprav preko standardnih pomnilniskih naslovov, brez locenih V/I ukazov. Se imenuje tudi memory-mapped I/O (MMIO)."
     },
     {
       "id": 19,
