@@ -17,7 +17,7 @@ let score = 0;
 
 gradeBtns.classList.add("hidden");
 
-const myRequest = new Request("./src/data/24-1r-t.json");
+const myRequest = new Request("./src/data/24-2r-t.json");
 
 
 function fetchJSONFile(path) {
