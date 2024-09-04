@@ -12,7 +12,7 @@ const gradeBtns = document.querySelector("#gradeContainer");
 const correctBtn = document.querySelector("#correctBtn");
 const incorrectBtn = document.querySelector("#incorrectBtn");
 
-const SCORE_POINTS = 100;
+const SCORE_POINTS = 1;
 let score = 0;
 
 gradeBtns.classList.add("hidden");
