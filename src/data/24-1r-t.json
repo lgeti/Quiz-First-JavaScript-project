@@ -81,7 +81,7 @@
       "id": 14,
       "question": "Kaj dobimo pri izračunu (a ^ ~b) | (c << d), če so a, b, c in d 8-bitna nepredznačena cela števila: a = 33, b = 47, c = 80 in d = 3?",
       "GPTanswer": "Pri danih vrednostih dobimo rezultat:\n\n~b je bitni NOT od b (vse bite obrne): ~47 je 208.\na ^ ~b je bitni XOR med a in ~b: 33 ^ 208 je 241.\nc << d je c premaknjen za d bitov v levo: 80 << 3 je 640.\n(a ^ ~b) | (c << d) je bitni OR med 241 in 640, kar je 897.",
-      "answer": "a = 33, b = 47, c = 80, d = 3\n\n~b = ~47 = 208\na ^ ~b = 33 ^ 208 = 241\nc << d = 80 << 3 = 640\n(a ^ ~b) | (c << d) = 241 | 640 = 897"
+      "answer": "a = 33, b = 47, c = 80, d = 3\n\n~b = ~47 = 208\na ^ ~b = 33 ^ 208 = 241\nc << d = 80 << 3 = 128\n(a ^ ~b) | (c << d) = 241 | 128 = 241"
     },
     {
       "id": 15,
