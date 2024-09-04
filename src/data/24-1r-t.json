@@ -15,7 +15,7 @@
       "id": 3,
       "question": "Ali je sistemski klic write buferirana funkcija?",
       "GPTanswer": "Ne, sistemski klic write ni buferirana funkcija. Piše podatke neposredno iz uporabniškega prostora v jedro in nato na napravo.",
-      "answer": "Ne, sistemski klic `write` ni buferirana funkcija. Piše podatke neposredno iz v jedro in nato na napravo."
+      "answer": "Ne, sistemski klic `write` ni buferirana funkcija. Piše podatke neposredno v jedro in nato na napravo."
     },
     {
       "id": 4,
