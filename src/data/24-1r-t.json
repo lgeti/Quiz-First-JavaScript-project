@@ -9,7 +9,7 @@
       "id": 2,
       "question": "Kateri so argumenti sistemskega klica read in kaj klic vrača?",
       "GPTanswer": "Argumenti sistemskega klica read so datotečni opisovalec, kazalec na pomnilniški prostor in število bajtov za branje. Klic vrača število dejansko prebranih bajtov ali -1 ob napaki.",
-      "answer": "Argumente so: int fd (file descriptor), void *buf (pointer to buffer), size_t count (number of bytes to read).\n\nVrne: ssize_t nBytes (numbers of bytes read) ali -1 ob napaki."
+      "answer": "Argumente so: int fd (file descriptor), void *buf (pointer to buffer), size_t count (number of bytes to read).\n\nVrne: ssize_t nBytes (numbers of bytes read),\n0 ob koncu datoteke ali\n-1 ob napaki."
     },
     {
       "id": 3,
