@@ -1,0 +1,382 @@
+[
+    {
+        "id": 1,
+        "question": "Kam spadajo ščitkarji?",
+        "answer": "Med enokrilce."
+    },
+    {
+        "id": 2,
+        "question": "Po čem je medeči škržat dobil slovensko ime?",
+        "answer": "Po izločanju medene rose."
+    },
+    {
+        "id": 3,
+        "question": "Ali ima fižolova rja vmesnega gostitelja?",
+        "answer": "Ne."
+    },
+    {
+        "id": 4,
+        "question": "Izraz za razvojni cikel na več rastlinah?",
+        "answer": "\"Heterogamija\" ali \"heterofazni razvojni cikel\"."
+    },
+    {
+        "id": 5,
+        "question": "Katera škodljivca povzročata škodo v urbanem okolju?",
+        "answer": "Čipkarka (Corythuca ciliata), fižolar, ameriški škržatek, navadna tenčarica."
+    },
+    {
+        "id": 6,
+        "question": "Kako se imenuje odrasli žival in kako ličinka družine Elateridae?",
+        "answer": "Odrasli žival - pokalica, ličinka - struna."
+    },
+    {
+        "id": 7,
+        "question": "Kateri škodljivec povzroča škodo na čebuli, zelju?",
+        "answer": "Tobakov resar."
+    },
+    {
+        "id": 8,
+        "question": "Kateri škodljivec se prenaša na božični zvezdi?",
+        "answer": "Tobakov ščitkar."
+    },
+    {
+        "id": 9,
+        "question": "Katera žuželka povzroča podobne poškodbe kot jablanov rak?",
+        "answer": "Krvava uš."
+    },
+    {
+        "id": 10,
+        "question": "Kateremu škodljivcu je polonica naravni sovražnik?",
+        "answer": "Pomarančev kapar."
+    },
+    {
+        "id": 11,
+        "question": "Kaj je siva breskova uš - na kaj prenaša viruse?",
+        "answer": "Na krompir."
+    },
+    {
+        "id": 12,
+        "question": "Kaj je karenca?",
+        "answer": "Karenca je čas, ki mora preteči od zadnjega tretiranja s FFs do pobiranja pridelka."
+    },
+    {
+        "id": 13,
+        "question": "Kako se prenašajo resarji?",
+        "answer": "S rastlinskim materialom, sadikami vrtnin in okrasnih rastlin."
+    },
+    {
+        "id": 14,
+        "question": "Neposredna škoda zaradi žitnih stenic se kaže kot?",
+        "answer": "Izmaličeno zrnje."
+    },
+    {
+        "id": 15,
+        "question": "Katera je gospodarsko najpomembnejša vrsta listnih uši (na žitih) v Sloveniji?",
+        "answer": "Velika žitna uš."
+    },
+    {
+        "id": 16,
+        "question": "Kateri virus na žitih je pri nas najbolj razširjen?",
+        "answer": "Virus rumene pritlikavosti ječmena."
+    },
+    {
+        "id": 17,
+        "question": "Kje so pomembni talni škodljivci, ličinke travniškega komarja?",
+        "answer": "Na travnikih, ki jih pogosto zalivajo (igrišča)."
+    },
+    {
+        "id": 18,
+        "question": "Koruzni hrošč je škodljiv zlasti kot?",
+        "answer": "Ličinka, ki objeda korenine."
+    },
+    {
+        "id": 19,
+        "question": "Pri žitnem strgaču so ličinke in odrasli osebki približno enako škodljivi?",
+        "answer": "Da."
+    },
+    {
+        "id": 20,
+        "question": "Katere vrste sta značilna primarna skladiščna škodljivca?",
+        "answer": "Črni žitni žužek in rižev žužek."
+    },
+    {
+        "id": 21,
+        "question": "Ali je pri koloradskem hrošču na krompirju v Sloveniji upravičeno zatiranje 1 rodu?",
+        "answer": "Da."
+    },
+    {
+        "id": 22,
+        "question": "V katerem razvojnem stadiju se pri žuželkah zgodijo največje morfološke in fiziološke spremembe?",
+        "answer": "V razvojnem stadiju bube."
+    },
+    {
+        "id": 23,
+        "question": "Kaj je značilno za holometabolne žuželke?",
+        "answer": "Ličinke so različne od odraslih osebkov."
+    },
+    {
+        "id": 24,
+        "question": "Kako imenujemo listne uši, pri katerih se pojavljajo spolno in nespolno razmnoževanje?",
+        "answer": "Holociklične."
+    },
+    {
+        "id": 25,
+        "question": "Kaj je stanje prikritega življenja pri organizmu?",
+        "answer": "Organizem ni aktiven, miruje, porabi manj kisika - diapavza."
+    },
+    {
+        "id": 26,
+        "question": "Katere so slabosti kloriranih ogljikovodikov?",
+        "answer": "Širok spekter delovanja, počasna razgradnja, prenos prek prehranjevalne verige in nabiranje v maščobnem tkivu."
+    },
+    {
+        "id": 27,
+        "question": "Kako bakterija Bacillus thuringiensis vpliva na žuželke?",
+        "answer": "Tvori toksin, ki poškoduje prebavo, perforira epitel, nato bakterija vstopi v žuželko."
+    },
+    {
+        "id": 28,
+        "question": "Kako delujejo rodenticidi-antikoagulanti?",
+        "answer": "Povzročajo pokanje drobnih kapilar in preprečujejo strjevanje krvi, kar vodi v notranje krvavitve."
+    },
+    {
+        "id": 29,
+        "question": "Kako entomopatogene ogorčice povzročijo smrt žuželk?",
+        "answer": "Z vstopom v žuželko sprostijo bakterije, ki jih nosijo v svojem telesu."
+    },
+    {
+        "id": 30,
+        "question": "Kako delimo insekticide glede na mesto delovanja na rastlinah?",
+        "answer": "Na zunanje, sistemično in globinsko delujoče."
+    },
+    {
+        "id": 31,
+        "question": "Kdaj je kolobar učinkovit posredni varstveni ukrep?",
+        "answer": "Pri zmanjšanju škodljivosti monofagnih vrst škodljivcev."
+    },
+    {
+        "id": 32,
+        "question": "Katere vrste žuželk imajo ustni aparat za grizenje, drobljenje in žvečenje?",
+        "answer": "Hrošči, gosenice in pagosenice."
+    },
+    {
+        "id": 33,
+        "question": "Kateri škodljivec je značilni predstavnik semenarjev?",
+        "answer": "Fižolar."
+    },
+    {
+        "id": 34,
+        "question": "Kako repna grizlica škoduje na križnicah?",
+        "answer": "Kot pagosenica, ki se hrani z listi križnic."
+    },
+    {
+        "id": 35,
+        "question": "Zakaj so ličinke deteljnega cvetožerja škodljive?",
+        "answer": "Zaradi hranjenja s semenom."
+    },
+    {
+        "id": 36,
+        "question": "Katera divjad je najškodljivejša?",
+        "answer": "Divji prašič."
+    },
+    {
+        "id": 37,
+        "question": "Kaj pomeni posredna škoda pri škodljivih žuželkah?",
+        "answer": "Izločanje medene rose in prenašanje škodljivih organizmov."
+    },
+    {
+        "id": 38,
+        "question": "Kako se imenuje osnovni gradnik sestavljenega očesa pri žuželkah?",
+        "answer": "Omatidij."
+    },
+    {
+        "id": 39,
+        "question": "Za katero skupino je značilna prosta buba?",
+        "answer": "Za hrošče."
+    },
+    {
+        "id": 40,
+        "question": "Kako škoduje vrbar kot metulj?",
+        "answer": "Njegova gosenica je znan lesovrt, zlasti škodljiv na marelici, češnji in drugih koščičarjih."
+    },
+    {
+        "id": 41,
+        "question": "Kako imenujemo ličinke škodljivih kožekrilcev?",
+        "answer": "Pagosenice."
+    },
+    {
+        "id": 42,
+        "question": "Kateri redu pripada navadni bramor?",
+        "answer": "Red kobilic."
+    },
+    {
+        "id": 43,
+        "question": "Kako zmanjšati škodljivost poljske motne stenice na solati brez insekticidov?",
+        "answer": "Z uporabo privabilnih rastlin, zlasti metulnic, kot je lucerna."
+    },
+    {
+        "id": 44,
+        "question": "Kaj pripisujemo zmanjšanju škodljivosti medečega škržata po vnosu v Slovenijo?",
+        "answer": "Vnosu njegovega naravnega sovražnika, plenilske-parazitske osice."
+    },
+    {
+        "id": 45,
+        "question": "Kako škoduje kapusova hržica na zelju?",
+        "answer": "Njena ličinka s sesanjem na srčnem listu preprečuje oblikovanje ene glave ali povzroči oblikovanje dveh tržno nezanimivih glav."
+    },
+    {
+        "id": 46,
+        "question": "Kateri monofagni škodljivec je najpomembnejši pri intenzivni pridelavi hrušk?",
+        "answer": "Navadna hruševa bolšica."
+    },
+    {
+        "id": 47,
+        "question": "Kako imenujemo ličinke poljskega majskega hrošča in drugih pahljačnikov, ki škodijo v tleh?",
+        "answer": "Ogrci."
+    },
+    {
+        "id": 48,
+        "question": "Kako se kostanjeva šiškarica prenaša na lokacijo?",
+        "answer": "S sadikami pravega žlahtnega kostanja."
+    },
+    {
+        "id": 49,
+        "question": "Katera je najbolj škodljiva uš pri jablani?",
+        "answer": "Mokasta jablanova uš."
+    },
+    {
+        "id": 50,
+        "question": "Kako stenice posredno škodijo pšenici?",
+        "answer": "Z izločanjem encima, ki razgrajuje gluten, zaradi česar moka izgubi pecilnost."
+    },
+    {
+        "id": 51,
+        "question": "Kaj je dazamet?",
+        "answer": "Kemična snov za zatiranje ogorčic."
+    },
+    {
+        "id": 52,
+        "question": "V kateri obliki so kaparji škodljivi?",
+        "answer": "V nekrilati obliki."
+    },
+    {
+        "id": 53,
+        "question": "Katera je najpomembnejša uš v Sloveniji?",
+        "answer": "Mokasta jablanova uš."
+    },
+    {
+        "id": 54,
+        "question": "Kako imenujemo insekticide, ki delujejo na razvojni stadij jajčeca?",
+        "answer": "Ovicidi."
+    },
+    {
+        "id": 55,
+        "question": "Kako škoduje jablanov molj?",
+        "answer": "Gosenica izjede brste in liste ter ustvarja zapredke."
+    },
+    {
+        "id": 56,
+        "question": "Kako škoduje jajčasti rilčkar?",
+        "answer": "Objeda liste in škoduje vinski trti ter oljki."
+    },
+    {
+        "id": 57,
+        "question": "Kaj pomeni posredna škoda pri škodljivcih?",
+        "answer": "Izločanje medene rose in prenašanje škodljivcev."
+    },
+    {
+        "id": 58,
+        "question": "Kaj pomeni neposredna škoda pri škodljivcih?",
+        "answer": "Grizenje, objedanje rastlin ali listov ter sesanje."
+    },
+    {
+        "id": 59,
+        "question": "Kako bakterije vplivajo na prebavo žuželk?",
+        "answer": "Uničenje prebave."
+    },
+    {
+        "id": 60,
+        "question": "Kaj je značilno za cvetožerja?",
+        "answer": "Hrani se s semeni."
+    },
+    {
+        "id": 61,
+        "question": "Kaj so fiziopatije?",
+        "answer": "Bolezni, ki jih povzročajo abiotični dejavniki."
+    },
+    {
+        "id": 62,
+        "question": "Kaj so periofiti (petiofiti)?",
+        "answer": "Organizmi, ki ubijejo živo tkivo in se nato prehranjujejo ter razvijajo (glive, bakterije, paraziti)."
+    },
+    {
+        "id": 63,
+        "question": "Katera skupina insekticidov je bila nekdaj največja?",
+        "answer": "Piretrocidi, kontaktni insekticidi, ki delujejo na živčni sistem."
+    },
+    {
+        "id": 64,
+        "question": "Katera je trenutno največja skupina insekticidov?",
+        "answer": "Organski fosforjevi estri."
+    },
+    {
+        "id": 65,
+        "question": "Kaj je alternajoči polimorfizem?",
+        "answer": "Izmenjava različnih oblik organizmov."
+    },
+    {
+        "id": 66,
+        "question": "Za kaj uporabljamo belo lepljivo ploščo?",
+        "answer": "Za nadzor grizlic."
+    },
+    {
+        "id": 67,
+        "question": "Kaj je apodna ličinka?",
+        "answer": "Breznoga ličinka, značilna za dvokrilce."
+    },
+    {
+        "id": 68,
+        "question": "Kaj pomeni SIR?",
+        "answer": "Vnašanje sterilnih samcev v okolje."
+    },
+    {
+        "id": 69,
+        "question": "Pri katerem škodljivcu so se najbolje izkazale feromonske vabe?",
+        "answer": "Kapusovi hržici."
+    },
+    {
+        "id": 70,
+        "question": "Kaj je protoandrija?",
+        "answer": "Najprej se pojavijo samci pri parjenju."
+    },
+    {
+        "id": 71,
+        "question": "Kaj je protoginija?",
+        "answer": "Najprej se pojavijo samice pri parjenju."
+    },
+    {
+        "id": 72,
+        "question": "Kako delujejo sistematični insekticidi?",
+        "answer": "Prehajajo skozi rastline."
+    },
+    {
+        "id": 73,
+        "question": "Kaj so generalisti?",
+        "answer": "Naravni sovražniki različnih organizmov, ki spodrivajo avtohtone vrste."
+    },
+    {
+        "id": 74,
+        "question": "Kaj so naravni insekticidi?",
+        "answer": "Insekticidi, ki delujejo na podlagi bakterij, virusov, entomopatogenih ogorčic in gliv."
+    },
+    {
+        "id": 75,
+        "question": "Kako se imenujejo ličinke pri različnih vrstah?",
+        "answer": "Dvokrilcev – žerke, metuljev – gosenice, kožekrilcev – pagosenice."
+    },
+    {
+        "id": 76,
+        "question": "Kaj pomeni predator?",
+        "answer": "Odlaga jajčeca v drugo žuželko, ličinka nato poje notranjost škodljivca."
+    }
+]

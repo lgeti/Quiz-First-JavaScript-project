@@ -113,4 +113,4 @@ function decrementScore() {
 	getNewQuestion();
 }
 
-fetchJSONFile("./src/data/24-2r-t.json");
+fetchJSONFile("./src/data/evaFito.json");
