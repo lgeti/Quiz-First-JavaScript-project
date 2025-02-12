@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "question": "Ali ima fižolova rja vmesnega gostitelja?",
+        "answer": "Ne, ecidiospore v cidijih se ohranjajo na isti rastlini ali pa celo na istih listih."
+    },
+    {
+        "id": 2,
+        "question": "Kaj je navadna sadna gniloba?",
+        "answer": "Izrazit parazit ran."
+    },
+    {
+        "id": 3,
+        "question": "Za katere rastline je nevarna solatna plesen?",
+        "answer": "Za mlade rastline, predvsem v zaprtem prostoru – okužuje le zunanje liste."
+    },
+    {
+        "id": 4,
+        "question": "Kdo povzroča traheomikoze?",
+        "answer": "Glive – z micelijem zamašijo prevajalno tkivo, kar otežuje dovod vode in hranil."
+    },
+    {
+        "id": 5,
+        "question": "Kaj okužujeta jablanova in breskova plesen? Kako prezimita?",
+        "answer": "Breskova plesen okužuje rastline iz rodu Prunus, prezimi v obliki micelija v brstih. Jablanova plesen okužuje rod Malus, kutino ter nešpljo."
+    },
+    {
+        "id": 6,
+        "question": "Kaj je kleistotecij pri zaprtotrosnicah?",
+        "answer": "Zaprto spolno trosišče z askusi."
+    },
+    {
+        "id": 7,
+        "question": "Kaj je anamorf?",
+        "answer": "Nespolni stadij gliv."
+    },
+    {
+        "id": 8,
+        "question": "Kaj je karenca?",
+        "answer": "Rok, v katerem FFS izgubi strupeni učinek."
+    },
+    {
+        "id": 9,
+        "question": "Kako se širi jablanov škrlup v rastni dobi?",
+        "answer": "Na pegah oblikuje konidije – nespolne enocelične trose, ki povzročajo sekundarne okužbe."
+    },
+    {
+        "id": 10,
+        "question": "Kje se ohranja ječmenova gola snet?",
+        "answer": "V embriu kot latentni micelij."
+    },
+    {
+        "id": 11,
+        "question": "Kako se imenujejo rje, ki nimajo vseh petih razvojnih stadijev?",
+        "answer": "Mikrociklične."
+    },
+    {
+        "id": 12,
+        "question": "Kaj povzroča ergotizem?",
+        "answer": "Alkaloidi v rženem rožičku."
+    },
+    {
+        "id": 13,
+        "question": "Kje se pojavlja prašnata krastavost krompirja?",
+        "answer": "V kislih in vlažnih tleh."
+    },
+    {
+        "id": 14,
+        "question": "Kaj so konidiofori?",
+        "answer": "Zračne hife, ki so nosilci nespolnih spor – konidiospor."
+    },
+    {
+        "id": 15,
+        "question": "Kaj storimo v primeru okužbe s krompirjevim rakom?",
+        "answer": "Uničimo okužene rastline ter o tem obvestimo pristojne službe."
+    },
+    {
+        "id": 16,
+        "question": "Kako imenujemo enocelične spore z bički pri oomicetah?",
+        "answer": "Zoospore."
+    },
+    {
+        "id": 17,
+        "question": "Katere rastline so občutljive za padavico sadik?",
+        "answer": "Tiste v zgodnjih fazah rasti, v času kalitve ter nekaj časa po vzniku."
+    },
+    {
+        "id": 18,
+        "question": "Kje se pojavi plesniva prevleka krompirjeve plesni?",
+        "answer": "Na spodnji strani okuženih listov."
+    },
+    {
+        "id": 19,
+        "question": "Kako rečemo organu, v katerem zaprtotrosnice oblikujejo spolne spore?",
+        "answer": "Askusi z askosporami."
+    },
+    {
+        "id": 20,
+        "question": "Za katere glive so značilne prezimitvene spore oospore?",
+        "answer": "Oomikote."
+    },
+    {
+        "id": 21,
+        "question": "Glavni vir okužb pri hmeljni peronospori?",
+        "answer": "Oospore v odpadlem listju."
+    },
+    {
+        "id": 22,
+        "question": "Za kaj gre pri simptomih koruzne bulave sneti?",
+        "answer": "Za histoidne spremembe."
+    },
+    {
+        "id": 23,
+        "question": "Kaj je ADI?",
+        "answer": "Acceptable Daily Intake – sprejemljiva količina FFS, ki jo lahko zaužijemo (mg/kg telesne teže/dan)."
+    },
+    {
+        "id": 24,
+        "question": "Kaj pomeni hipoplazija?",
+        "answer": "Zmanjšana delitev celic, nerazviti organi."
+    },
+    {
+        "id": 25,
+        "question": "Kdo od patogenov lahko neposredno prodira v rastlinske celice?",
+        "answer": "Le glive."
+    },
+    {
+        "id": 26,
+        "question": "Kako se imenuje struktura, ki popravlja poškodbe celičnih sten, povzročene s strani patogenov?",
+        "answer": "Kalozna papila."
+    },
+    {
+        "id": 27,
+        "question": "Kako se ohranja golšavost kapusnic?",
+        "answer": "V tleh v obliki enoceličnih trajnih spor."
+    },
+    {
+        "id": 28,
+        "question": "Kaj pomeni, da so bakterije prokarionti?",
+        "answer": "So enocelični organizmi brez jedrne membrane."
+    },
+    {
+        "id": 29,
+        "question": "Kako imenujemo signalne molekule, preko katerih rastlina prepozna patogena?",
+        "answer": "Receptorji."
+    },
+    {
+        "id": 30,
+        "question": "Kje se ohranja jablanov škrlup?",
+        "answer": "V okuženem odpadlem listju v obliki psevdotecijev z dvoceličnimi askosporami."
+    },
+    {
+        "id": 31,
+        "question": "Kdaj oidij vinske trte povzroči največ škode?",
+        "answer": "V toplih in sušnih letih."
+    },
+    {
+        "id": 32,
+        "question": "Kaj je jablanov rak?",
+        "answer": "Izrazit parazit ran."
+    },
+    {
+        "id": 33,
+        "question": "Kaj je apotecij pri zaprtotrosnicah?",
+        "answer": "Odprto trosišče čašaste ali diskaste oblike."
+    },
+    {
+        "id": 34,
+        "question": "Kako se rastline branijo pred jablanovim rakom?",
+        "answer": "S tvorbo kalusa – plutaste plasti, s katero omeji širjenje okužbe (zaprt tip raka)."
+    },
+    {
+        "id": 35,
+        "question": "Kako se pri nas ohranja črna listna pegavost vinske trte?",
+        "answer": "V obliki nespolnih plodišč (piknidijev) na enoletnem lesu in pod skorjo večletnega lesa."
+    },
+    {
+        "id": 36,
+        "question": "Zakaj je kolobar pri golšavosti kapusnic le delno učinkovit?",
+        "answer": "Ker se v tleh ohranja v obliki trajnih spor, katerih življenjska doba je več let."
+    },
+    {
+        "id": 37,
+        "question": "Kdaj paradižnikova plesen povzroča več škode; ko trosovniki kalijo posredno ali neposredno?",
+        "answer": "Posredno (zoospore) – pri nižjih temperaturah (optimalno 13°C) in zadostni količini vode."
+    },
+    {
+        "id": 38,
+        "question": "Kje se gniloba koreninskega vratu jablan in hrušk pojavlja pogosteje?",
+        "answer": "V težkih vlažnih tleh, kjer ni urejene drenaže."
+    },
+    {
+        "id": 39,
+        "question": "Kako prezimi peronospora vinske trte?",
+        "answer": "V obliki oospor v rastlinskih ostankih in v zgornjem sloju tal z veliko organske snovi."
+    },
+    {
+        "id": 40,
+        "question": "Kaj je peritecij pri zaprtotrosnicah?",
+        "answer": "Okroglo ali stekleničasto trosišče z odprtino zgoraj."
+    }
+]
